@@ -1,0 +1,29 @@
+*~
+.emacs.d/session.*
+.emacs.d/#*#
+.config/tmux/plugins
+
+# Neovim
+config/nvim/lazy-lock.json
+config/nvim/. luarc.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+. directory
+
+# Editor specific
+.vscode/
+. idea/
+
+# Backup files
+*. bak
+*.backup
+
