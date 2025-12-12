@@ -4,8 +4,6 @@ alias f='zi'
 alias g='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias nvimrc='nvim ~/.config/nvim/'
-#alias nman='bob'
-# alias sshk="kitty +kitten ssh"
 #alias rel="xrdb merge ~/xresources"
 alias gcc='gcc -Wall -Wextra'
 alias g++='g++ -Wall -Wextra -std=c++17'
@@ -13,7 +11,7 @@ alias g++='g++ -Wall -Wextra -std=c++17'
 # alias nvim="env TERM=wezterm nvim"
 
 # Remarkable
-#alias remarkable_ssh='ssh root@10.11.99.1'
+#alias remarkable_ssh='ssh root@xx.xx.xx.xx'
 #alias restream='restream -p'
 
 # Colorize grep output (good for log files)
